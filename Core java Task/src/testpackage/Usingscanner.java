@@ -1,0 +1,24 @@
+package testpackage;
+
+import java.util.*;
+
+public class Usingscanner {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("Enter the a value");
+		
+		int a= sc.nextInt();
+		
+		System.out.println("Enter the b value");
+
+		int b= sc.nextInt();
+		
+		System.out.print(a+b);
+		
+		
+	}
+
+} 
